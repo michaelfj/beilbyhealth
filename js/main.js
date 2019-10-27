@@ -21,7 +21,7 @@ $(window).on('scroll', function() {
 $(window).on('scroll', function() {
 	var mq3Distance = $('.mq3').offset().top;
 	var distanceScrolled = $(window).scrollTop();
-	if (distanceScrolled >4700) {
+	if (distanceScrolled >4550) {
 		$('.mq3').addClass('scrolled');
 	}	else {
 		$('.mq3').removeClass('scrolled');
