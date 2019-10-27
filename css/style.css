@@ -395,6 +395,7 @@ nav a {
 #footer1, #footer2 {
 	float: none;
 	display: auto;
+	width: 100%;
 	margin: 3px;
 }
 #footer3 {
