@@ -16,9 +16,9 @@ header {
 	width: 100%
 }
 h1 {
-	font-family: 'Vollkorn', serif;
-/*	font-family: Helvetica, sans-serif;
-*/	font-size: 2.5em;
+/*	font-family: 'Vollkorn', serif;
+*/	font-family: Helvetica, sans-serif;
+	font-size: 2.5em;
 	font-style: normal;
 	font-weight: bold;
 	text-align: center;
@@ -29,9 +29,9 @@ h1 {
 	margin: 10px;
 }
 h2 {
-	font-family: 'Vollkorn', serif;
-/*	font-family: Helvetica, sans-serif;
-*/	font-size: 2em;
+/*	font-family: 'Vollkorn', serif;
+*/	font-family: Helvetica, sans-serif;
+	font-size: 2em;
 	font-style: normal;
 	font-weight: bold;
 	text-align: center;
@@ -40,9 +40,9 @@ h2 {
 	margin: 8px;
 } 
 h3 {
-	font-family: 'Vollkorn', serif;
-/*	font-family: Helvetica, sans-serif;
-*/	font-size: 1.1em;
+/*	font-family: 'Vollkorn', serif;
+*/	font-family: Helvetica, sans-serif;
+	font-size: 1.1em;
 	font-style: normal;
 	font-weight: bold;
 	text-align: left;
@@ -51,9 +51,9 @@ h3 {
 	margin: 5px;
 }
 h4 {
-	font-family: 'Vollkorn', serif;
-/*	font-family: Helvetica, sans-serif;
-*/	font-size: 1.5em;
+/*	font-family: 'Vollkorn', serif;
+*/	font-family: Helvetica, sans-serif;
+	font-size: 1.5em;
 	font-style: normal;
 	font-weight: normal;
 	text-align: center;
@@ -65,9 +65,9 @@ h4 {
 	margin: 8px;
 }
 h5 {
-	font-family: 'Vollkorn', serif;
-/*	font-family: Helvetica, sans-serif;
-*/	font-size: 1.5em;
+/*	font-family: 'Vollkorn', serif;
+*/	font-family: Helvetica, sans-serif;
+	font-size: 1.5em;
 	font-style: normal;
 	font-weight: bold;
 	text-align: center;
@@ -76,9 +76,9 @@ h5 {
 	margin: 8px;
 }
 p {
-	font-family: 'Vollkorn', serif;
-/*	font-family: Helvetica;
-*/	font-size: 1em;
+/*	font-family: 'Vollkorn', serif;
+*/	font-family: Helvetica;
+	font-size: 1em;
 	font-style: normal;
 	font-weight: normal;
 	text-align: left;
@@ -239,9 +239,9 @@ div {
 	margin: 5px;
 }
 article a {
-	font-family: 'Vollkorn', serif;
-/*	font-family: Helvetica, sans-serif;
-*/	font-size: 1.2em;
+/*	font-family: 'Vollkorn', serif;
+*/	font-family: Helvetica, sans-serif;
+	font-size: 1.2em;
 	font-weight: bold;
 	font-style: normal;
 	font-variant: small-caps;
@@ -251,9 +251,9 @@ article a {
 }
 
 article ul {
-	font-family: 'Vollkorn', serif;
-/*	font-family: Helvetica, sans-serif;
-*/	font-size: 1em;
+/*	font-family: 'Vollkorn', serif;
+*/	font-family: Helvetica, sans-serif;
+	font-size: 1em;
 	font-weight: normal;
 	font-style: normal;
 	font-variant: small-caps;
@@ -297,9 +297,9 @@ footer {
 }
 footer p {
 	text-align: center;
-	font-family: 'Vollkorn', serif;
-/*	font-family: Helvetica, sans-serif;
-*/	color: yellow;
+/*	font-family: 'Vollkorn', serif;
+*/	font-family: Helvetica, sans-serif;
+	color: yellow;
 	font-size: 10px;
 	padding: 5px;
 }
@@ -309,9 +309,9 @@ footer a {
 	background-image: url("../images/PPBallR.gif"); 
 	background-size: 100% auto;
 	background-position: center center;
-	font-family: 'Vollkorn', serif;
-/*	font-family: Helvetica, sans-serif;
-*/	font-size: 16px;
+/*	font-family: 'Vollkorn', serif;
+*/	font-family: Helvetica, sans-serif;
+	font-size: 16px;
 	font-variant: small-caps;
 	color: darkred;
 	text-align: center;
