@@ -21,7 +21,7 @@ $(window).on('scroll', function() {
 $(window).on('scroll', function() {
 	var mq11Distance = $('.mq11').offset().top;
 	var distanceScrolled = $(window).scrollTop();
-	if (distanceScrolled >1350) {
+	if (distanceScrolled >1150) {
 		$('.mq11').addClass('scrolled');
 	}	else {
 		$('.mq11').removeClass('scrolled');

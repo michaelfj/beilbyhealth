@@ -31,10 +31,13 @@ $(window).on('scroll', function() {
 $(window).on('scroll', function() {
 	var mq4Distance = $('.mq4').offset().top;
 	var distanceScrolled = $(window).scrollTop();
-	if (distanceScrolled >370) {
+	if (distanceScrolled >300) {
 		$('.mq4').addClass('scrolled');
 	}	else {
 		$('.mq4').removeClass('scrolled');
 	}
 });
 
+$('#home').on('click', function () {
+	$('h2 #manly').fadeIn(350);
+});
