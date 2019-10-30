@@ -10,8 +10,9 @@ $(window).on('scroll', function() {
 
 $(window).on('scroll', function() {
 	var mq2Distance = $('.mq2').offset().top;
+		console.log(mq16Distance);
 	var distanceScrolled = $(window).scrollTop();
-	if (distanceScrolled >3900) {
+	if (distanceScrolled >3800) {
 		$('.mq2').addClass('scrolled');
 	}	else {
 		$('.mq2').removeClass('scrolled');
