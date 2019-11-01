@@ -43,7 +43,7 @@ h3 {
 	text-align: left;
 	color: #6884C8;
 	padding: 5px;
-	margin: 5px;
+	margin: 10px;
 }
 h4 {
 	font-family: Helvetica, sans-serif;
@@ -221,19 +221,10 @@ div {
 #column3 {
 	background-color: #FFF1A9;
 }
-#manly {
-	display: auto;
-	width: auto;
-	padding: 8px;
-	opacity:1.0;
-	-webkit-animation:scroll 3s 1s;
-	-webkit-animation-fill-mode: forwards;
+/*#manly2 {
+	display: none;
 }
-@-webkit-keyframes scroll {
-	0% {-webkit-transform: translate(0px, 00px);}
-  100% {  -webkit-transform: translate(0px, 100px);}
-}
-
+*/
 #opening {
 	width: auto;
 	padding-left: 20px;
@@ -242,8 +233,8 @@ div {
 	-webkit-animation:slide 7s 1s;
 }
 @-webkit-keyframes slide {
-	0% {-webkit-transform: translate(700px, 0px);}
-  100% {  -webkit-transform: translate(0px, 0px);}
+	0% {-webkit-transform: translate(0px, 30px);}
+  100% {  -webkit-transform: translate(0px, 00px);}
 }
 
 #inform {
@@ -346,22 +337,36 @@ article span {
 .scrolled h5 {
 	color: red;
 }
+.mq7 {
+	display: none;
+}
+#manly {
+	display: auto;
+	width: auto;
+	padding: 8px;
+	opacity:1.0;
+	-webkit-animation:scroll 3s 1s;
+	-webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes scroll {
+	0% {-webkit-transform: translate(0px, 100px);}
+  100% {  -webkit-transform: translate(0px, 0px);}
+}
 
 footer {
 	float: left;
-	background-image: url("../images/Blue_water3.gif");
-	display: block;
+	background-image: url("../images/Fingal_Beach_pics18 (32)edred.gif");
+	display: inline-block;
 	width: 100%;
 	margin: 0px;
 }
-#footer1, #footer2 {
-	display: 80%;
+#footer1 {
 	margin: 3px;
 }
 #footer3 {
-	display: 20%;
 	margin: 3px;
 }
+
 footer p {
 	text-align: center;
 	font-family: Helvetica, sans-serif;
@@ -398,9 +403,6 @@ footer a:hover {
 #footerlogo {
 	margin: 10px;
 }
-#footerad1 {
-	width: 100%;
-}
 
 @media only screen and (min-width: 685px) and (max-width: 1440px) {
 nav { 
@@ -426,15 +428,13 @@ nav a {
 	float: left;
 	width: 47%;
 }
-#footer1, #footer2 {
-	float: none;
-	display: 80%;
+#footer1 {
+	float: left;
+	display: 100%;
 	margin: 3px;
 }
-#footer3 {
-	display: inline-block;
-	color: yellow;
-	margin: 3px;
+.footerimg {
+	width: 25%;
 }
 }
 @media only screen and (min-width: 230px) and (max-width: 685px) {
@@ -457,6 +457,26 @@ nav a {
 	display: block;
 	width: 98%;
 }
+.mq7 {
+	display: inline-block;
+}
+#manly2 {
+	display: auto;
+	width: auto;
+	padding: 8px;
+	opacity:1.0;
+	-webkit-animation:scroll 3s 1s;
+	-webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes scroll {
+	0% {-webkit-transform: translate(0px, 0px);}
+  100% {  -webkit-transform: translate(0px, 0px);}
+}
+
+#follow {
+	display: none;
+}
+
 #footer1, #footer2 {
 	float: none;
 	display: auto;
