@@ -457,6 +457,9 @@ nav a {
 	display: block;
 	width: 98%;
 }
+.wide {
+	display: none;
+}
 .mq7 {
 	display: inline-block;
 }
