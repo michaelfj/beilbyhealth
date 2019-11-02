@@ -1,3 +1,11 @@
+//$(window).on('scroll', function (e) {
+//	if ($(window.screenTop) < 300) {
+//		$('.mq').addClass('scrolled');
+//}	else {
+//		$('.mq').removeClass('scrolled');
+//}
+//});
+
 $(window).on('scroll', function() {
 	var mq14Distance = $('.mq14').offset().top;
 	var distanceScrolled = $(window).scrollTop();

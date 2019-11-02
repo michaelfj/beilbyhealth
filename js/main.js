@@ -10,7 +10,6 @@ $(window).on('scroll', function() {
 
 $(window).on('scroll', function() {
 	var mq2Distance = $('.mq2').offset().top;
-		console.log(mq16Distance);
 	var distanceScrolled = $(window).scrollTop();
 	if (distanceScrolled >3800) {
 		$('.mq2').addClass('scrolled');
@@ -42,3 +41,6 @@ $(window).on('scroll', function() {
 $('#home').on('click', function () {
 	$('h2 #manly').fadeIn(350);
 });
+
+
+
