@@ -217,7 +217,7 @@ div {
 	min-height: auto;
 	margin: 10px;
 }
-.column h1, h2, h5 {
+.column h1, h2, h5, h6 {
 	background-image: url("../images/Satin_WideHR.gif");
 }
 #column1 {
@@ -345,6 +345,9 @@ article span {
 .scrolled h5 {
 	color: red;
 }
+.scrolled h6 {
+	color: red;
+}
 .mq7 {
 	display: none;
 }
@@ -466,6 +469,9 @@ nav a {
 	width: 98%;
 }
 .wide {
+	display: none;
+}
+#follow {
 	display: none;
 }
 .mq7 {
