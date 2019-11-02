@@ -477,7 +477,7 @@ nav a {
 .mq7 {
 	display: inline-block;
 }
-#manly2 {
+/*#manly2 {
 	display: auto;
 	width: auto;
 	padding: 8px;
@@ -488,7 +488,7 @@ nav a {
 @-webkit-keyframes scroll {
 	0% {-webkit-transform: translate(0px, 0px);}
   100% {  -webkit-transform: translate(0px, 0px);}
-}
+}*/
 
 #follow {
 	display: none;
