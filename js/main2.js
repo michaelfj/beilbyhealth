@@ -1,11 +1,3 @@
-//$(window).on('scroll', function (e) {
-//	if ($(window.screenTop) < 300) {
-//		$('.mq').addClass('scrolled');
-//}	else {
-//		$('.mq').removeClass('scrolled');
-//}
-//});
-
 $(window).on('scroll', function() {
 	var mq14Distance = $('.mq14').offset().top;
 	var distanceScrolled = $(window).scrollTop();
@@ -29,7 +21,7 @@ $(window).on('scroll', function() {
 $(window).on('scroll', function() {
 	var mq6Distance = $('.mq6').offset().top;
 	var distanceScrolled = $(window).scrollTop();
-	if (distanceScrolled >1750) {
+	if (distanceScrolled >1700) {
 		$('.mq6').addClass('scrolled');
 	}	else {
 		$('.mq6').removeClass('scrolled');
@@ -39,7 +31,7 @@ $(window).on('scroll', function() {
 $(window).on('scroll', function() {
 	var mq7Distance = $('.mq7').offset().top;
 	var distanceScrolled = $(window).scrollTop();
-	if (distanceScrolled >2700) {
+	if (distanceScrolled >2600) {
 		$('.mq7').addClass('scrolled');
 	}	else {
 		$('.mq7').removeClass('scrolled');
@@ -49,7 +41,7 @@ $(window).on('scroll', function() {
 $(window).on('scroll', function() {
 	var mq8Distance = $('.mq8').offset().top;
 	var distanceScrolled = $(window).scrollTop();
-	if (distanceScrolled >3150) {
+	if (distanceScrolled >3000) {
 		$('.mq8').addClass('scrolled');
 	}	else {
 		$('.mq8').removeClass('scrolled');
@@ -59,7 +51,7 @@ $(window).on('scroll', function() {
 $(window).on('scroll', function() {
 	var mq9Distance = $('.mq9').offset().top;
 	var distanceScrolled = $(window).scrollTop();
-	if (distanceScrolled >3500) {
+	if (distanceScrolled >3350) {
 		$('.mq9').addClass('scrolled');
 	}	else {
 		$('.mq9').removeClass('scrolled');
@@ -69,7 +61,7 @@ $(window).on('scroll', function() {
 $(window).on('scroll', function() {
 	var mq9bDistance = $('.mq9b').offset().top;
 	var distanceScrolled = $(window).scrollTop();
-	if (distanceScrolled >4250) {
+	if (distanceScrolled >4050) {
 		$('.mq9b').addClass('scrolled');
 	}	else {
 		$('.mq9b').removeClass('scrolled');

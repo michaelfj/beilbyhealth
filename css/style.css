@@ -229,12 +229,46 @@ div {
 #column3 {
 	background-color: #FFF1A9;
 }
-/*#manly2 {
-	display: none;
-}
-*/
+
 #opening {
 	width: auto;
+	text-shadow: 1px 1px 1px darkblue;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	opacity:1.0;
+	-webkit-animation:slide 7s 1s;
+}
+@-webkit-keyframes slide {
+	0% {-webkit-transform: translate(0px, 30px);}
+  100% {  -webkit-transform: translate(0px, 00px);}
+}
+
+#booking {
+	width: auto;
+	text-shadow: 1px 1px 1px darkblue;
+	padding-left: 20px;	
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	opacity:1.0;
+	-webkit-animation:slide 7s 1s;
+}
+@-webkit-keyframes slide {
+	0% {-webkit-transform: translate(0px, 30px);}
+  100% {  -webkit-transform: translate(0px, 00px);}
+}
+#booking:hover {
+	color: aqua;
+	background-color: darkblue;
+}
+#testimonial {
+	color: #fff1a9;
+	width: auto;
+	text-shadow: 1px 1px 1px black;
+	padding-bottom: 11px;
+	padding-top: 11px;
 	padding-left: 20px;
 	padding-right: 20px;
 	opacity:1.0;
@@ -243,6 +277,10 @@ div {
 @-webkit-keyframes slide {
 	0% {-webkit-transform: translate(0px, 30px);}
   100% {  -webkit-transform: translate(0px, 00px);}
+}
+#testimonial:hover {
+	color: aqua;
+	background-color: darkblue;
 }
 
 #inform {

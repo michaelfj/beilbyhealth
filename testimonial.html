@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" type="text/css" href="css/style_feedback.css">
+-->
+
+<style>
+
+* {box-sizing: border-box;}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FBF2BD;
+}
+.dropbtn {
+  background-color: #fff1a9;
+  color: #8FB5C0;
+  padding: 8px;
+  font-variant: small-caps;
+  font-size: 18px;
+/*box-shadow: 1px 1px 1px red;
+  text-shadow: 1px 1px 1px black;
+*/border: none;
+  margin: 3px;
+}
+.dropdown:hover .dropbtn {color:aqua; background-color: grey;}
+
+h3 {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.8em;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 1px 1px 1px darkblue;
+  padding-bottom: 11px;
+  padding-top: 11px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff1a9;
+  background-color: #cfcfdd;
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+}
+p {
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  text-align: justify;
+  line-height: 1.5em;
+  color: #6884C8;
+  margin: 15px;
+}
+
+input[type=text], select, textarea {
+  background-color: #f2f2f2;
+  font-size: 1.2em;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  font-size: 1.4em;
+  font-variant: small-caps; 
+  color: #fff1a9;
+  background-color: #cfcfdd;
+  text-shadow: 1px 1px 1px darkblue;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: grey;
+  color: aqua;
+}
+.container cf {
+  border-radius: 5px;
+/*  background-image: url("../images/Fingal18(32)edredEXT.gif");
+*/background-color: #8DB4C0;
+  padding: 20px;
+}
+</style>
+</head>
+
+<nav class="clearfix">
+      <div class="dropdown">
+          <a href="index.html"><button class="dropbtn">home</button></a>
+        </div>
+</nav>
+<body>
+
+  <h3>Write your testimonial</h3>
+
+  <div class="container cf">
+  
+     <ul class="comments">
+<!-- Handlebars Template -->
+      <script id="comment-template" type="text/x-handlebars-template">
+        <li data-id="{{commentId}}">
+          <p id="comment">{{comment}}</p>
+        </li>
+      </script>
+    </ul>
+
+    <form id="comment-form" class="cf" action="/action_page.php">
+      <label for="comment"></label>
+      <textarea id="comment" name="comment" placeholder="Write about your experience with Michael's treatment.." style="height:200px"></textarea>
+
+      <input type="submit" value="submit">
+    </form>
+    <br>
+    <img class="columnimg" src="images/Manly_harbour_1019 (6).gif">
+  
+  </div>
+
+<!-- Firebase CDN -->
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    <script src="js/handlebars-v4.1.2.js"></script>
+    <script src="js/jquery-3.0.0.js"></script>
+  <!-- Main js file -->
+    <script src="js/mainb6d.js"></script>
+
+  </body>
+</html>

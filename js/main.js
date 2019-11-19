@@ -10,8 +10,14 @@ $(window).on('scroll', function() {
 
 $(window).on('scroll', function() {
 	var mq2Distance = $('.mq2').offset().top;
+
+	consolelog(mq2Distance);
+
 	var distanceScrolled = $(window).scrollTop();
-	if (distanceScrolled >3800) {
+
+	console.log(distanceScrolled);
+	
+	if (distanceScrolled >1200) {
 		$('.mq2').addClass('scrolled');
 	}	else {
 		$('.mq2').removeClass('scrolled');
@@ -31,7 +37,10 @@ $(window).on('scroll', function() {
 $(window).on('scroll', function() {
 	var mq4Distance = $('.mq4').offset().top;
 	var distanceScrolled = $(window).scrollTop();
-	if (distanceScrolled >300) {
+	
+	console.log(distanceScrolled);
+	
+	if (distanceScrolled >400) {
 		$('.mq4').addClass('scrolled');
 	}	else {
 		$('.mq4').removeClass('scrolled');
