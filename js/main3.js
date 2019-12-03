@@ -31,7 +31,7 @@ $(window).on('scroll', function() {
 $(window).on('scroll', function() {
 	var mq12Distance = $('.mq12').offset().top;
 	var distanceScrolled = $(window).scrollTop();
-	if (distanceScrolled >3000) {
+	if (distanceScrolled >3200) {
 		$('.mq12').addClass('scrolled');
 	}	else {
 		$('.mq12').removeClass('scrolled');
@@ -41,7 +41,7 @@ $(window).on('scroll', function() {
 $(window).on('scroll', function() {
 	var mq13Distance = $('.mq13').offset().top;
 	var distanceScrolled = $(window).scrollTop();
-	if (distanceScrolled >4150) {
+	if (distanceScrolled >4300) {
 		$('.mq13').addClass('scrolled');
 	}	else {
 		$('.mq13').removeClass('scrolled');
